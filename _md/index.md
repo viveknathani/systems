@@ -7,8 +7,6 @@
 This is a place where I write about the system that pique my interest as an engineer. I start exploring the world of technology from a very fundamental level and move on to modern day sophistications, which I believe, find their roots back to the fundamentals. The material listed here is not meant for interview prep. I don't cover all the interview friendly areas for a given topic, just the ones I like.
 
 1. [data structures and algorithms](./dsa) 
-- The relevance of algorithmic problems in interviews is debatable. But still, not having an understanding of the basics puts you at a programming disadvantage. In this topic, I try to cover the problems that feel relevant to me.
-
 2. [operating systems](./os)
 3. [computer networking](./cn)
 4. [databases](./db)
@@ -33,4 +31,5 @@ This is a place where I write about the system that pique my interest as an engi
 23. [design - notification service](./notifs)
 24. [design - online multiplayer game](./multiplayer-game)
 25. [design - zoom](./zoom)
+26. [character encodings](./character-encodings)
 
