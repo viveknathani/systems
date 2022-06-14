@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>systems - viveknathani</title>
+  <meta name="GENERATOR" content="Blackfriday Markdown Processor v2.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../theme.css">
+</head>
+<body>
+
+<h1>javascript</h1>
+
+<p>JS is pretty cool. It is fundamental for websites that go beyond basic usecases. But, most people don't take the time to understand it fully. This document, hopefully covers the basic ground needed to be good at JS, along with some historical info.</p>
+
+<h2>specification, engines</h2>
+
+<p>The original specification of JavaScript is called ECMAScript. The component that executes JS code is called as the engine. Engines can be interpreter-based or just-in-time compilation based. Most are latter these days. Some popular engines:</p>
+
+<ol>
+<li>V8 (runs in chrome, edge)</li>
+<li>SpiderMonkey (runs in firefox)</li>
+</ol>
+
+<p>Most modern day browsers provide support for widely used and latest ECMAScript standards. In addition, the browser provides a ton of <a href="https://developer.mozilla.org/en-US/docs/Web/API">APIs</a> that make JS more powerful.</p>
+
+<h2>char set, variables</h2>
+
+<ul>
+<li>JS has Unicode character set.</li>
+<li>three kinds of variable declarations: var, let, const</li>
+<li>const means don't change but the properties of objects assigned to constants are not protected.</li>
+<li>a variable declared using the var or let statement with no assigned value specified has the value of undefined.</li>
+<li>the undefined value behaves as false when used in a boolean context.</li>
+<li>the undefined value converts to NaN when used in numeric context.</li>
+<li>when you evaluate a null variable, the null value behaves as 0 in numeric contexts and as false in boolean contexts.</li>
+<li>data types as per ECMAScript2015: Boolean, null, undefined, Number, BigInt, String, Symbol, Object.</li>
+</ul>
+
+<h2>hoisting</h2>
+
+<ul>
+<li>another unusual thing about variables in JavaScript is that you can refer to a variable declared later, without getting an exception. this is called hositing. variables are lifted to the top of the function/statement but they return a value of undefined.</li>
+<li>because of hoisting, all var statements in a function should be placed as near to the top of the function as possiblle.</li>
+<li>In ECMAScript 2015, let and const are hoisted but not initialized. Referencing the variable in the block before the variable declaration results in a ReferenceError, because the variable is in a &quot;temporal dead zone&quot; from the start of the block until the declaration is processed.</li>
+<li>Functions are hoisted if they're defined using function declarations — but functions are not hoisted if they're defined using function expressions.</li>
+</ul>
+
+</body>
+</html>
